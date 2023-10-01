@@ -1,0 +1,210 @@
+
+/* IMPORTANDO AS FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* VARIÁVEIS */
+
+:root {
+    /* VARIÁVEIS DAS CORES */
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #272727;
+
+    /* VARIÁVEIS DAS FONTES*/
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat' sans-serif;
+}
+
+/* TROCANDO AS CORES DO PROJETO */
+
+/* :root {
+    --cor-primaria: #2C3639;
+    --cor-secundaria: #DCD7C9;
+    --cor-terciaria: #A27B5C;
+    --cor-hover: #3F4E4F;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    /* height: 100vh; */
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+/* .apresentacao {
+    padding: 0% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   gap: 40px;
+} */
+
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0%;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* padding: 20px;
+    margin: 0 10px 10px 0; */
+}
+
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+    /* margin-top: 100px; */
+
+    /* text-align: center; */
+}
+
+.apresentacao__conteudo__titulo__2 {
+    /* font-size: 36px; */
+    font-size: 28px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-size: 26px;
+    font-family: var(--fonte-secundaria);
+} 
+
+.titulo-destaque {
+    color: var(--cor-terciaria);
+}
+
+/* .titulo-destaque:hover {
+    color: var(--cor-hover);
+} */
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__conteudo__texto a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__texto__p {
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+    margin-right: 2% ;
+}
+
+/* a {
+    text-decoration: none;
+    color: #22D4FD;
+} */
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__link {
+    /* background-color: #22D4FD; */
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links__link:hover {
+    background-color: var(--cor-hover);
+}
+
+/* .foto__principal:hover {
+    width: 500%;
+} */
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10% 2%;
+    width: 100%; 
+    height: 100%;
+    margin-left: 1%;
+}
+
+.fotos {
+    margin-top: 10%;
+    padding: 0%;
+    margin-bottom: 30%;
+} 
+
+span {
+    font-weight: 900;
+}
+
+.rodape {
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+sup {
+    font-size: 20px;
+}
